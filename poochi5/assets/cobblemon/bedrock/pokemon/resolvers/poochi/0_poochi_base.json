@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:poochi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:poochi",
+      "model": "cobblemon:poochi.geo",
+      "texture": "cobblemon:textures/pokemon/poochi/poochi.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/poochi/poochi_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "poochi-1",
+      "pokemon": "poochi",
+      "presets": [ "natural", "wild" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-15",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [ 
+		"#minecraft:is_plains",
+		"#minecraft:is_flower_forest",
+		"#minecraft:is_birch_forest",
+		"#minecraft:is_cherry_grove",
+		"#minecraft:is_sunflower_plains",
+		"#minecraft:is_dark_forest",
+		],
+        "minY": 32
+      }
+    },
+  ]
+}

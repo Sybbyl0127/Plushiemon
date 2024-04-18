@@ -1,0 +1,82 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.poochi",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bulk",
+					"parent": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -5], "size": [12, 4, 10], "uv": [0, 31]},
+						{"origin": [-5.5, 12.75, -4.5], "size": [11, 2, 9], "uv": [36, 7]},
+						{"origin": [-6, 8.75, -5], "size": [12, 4, 10], "uv": [0, 16]},
+						{"origin": [-6.25, 3.75, -5.25], "size": [12.5, 5, 10.5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "bulk",
+					"pivot": [0, 11, -5]
+				},
+				{
+					"name": "reye",
+					"parent": "eyes",
+					"pivot": [0, 11, -5],
+					"cubes": [
+						{"origin": [1, 9.5, -5.25], "size": [2, 2.75, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leye",
+					"parent": "eyes",
+					"pivot": [0, 11, -5],
+					"cubes": [
+						{"origin": [-3, 9.5, -5.25], "size": [2, 2.75, 2], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "tails",
+					"parent": "head",
+					"pivot": [-0.5, 2.5, 4.5],
+					"cubes": [
+						{"origin": [-1, 2, 4.5], "size": [1, 1, 4], "uv": [35, 0]}
+					]
+				},
+				{
+					"name": "ears",
+					"parent": "head",
+					"pivot": [0, 15, -2]
+				},
+				{
+					"name": "rear",
+					"parent": "ears",
+					"pivot": [3, 15, -2],
+					"cubes": [
+						{"origin": [1.5, 12.75, -3.5], "size": [3, 5, 3], "uv": [42, 43]}
+					]
+				},
+				{
+					"name": "lear",
+					"parent": "ears",
+					"pivot": [-3, 15, -2],
+					"cubes": [
+						{"origin": [-4.5, 12.75, -3.5], "size": [3, 5, 3], "uv": [35, 31]}
+					]
+				}
+			]
+		}
+	]
+}

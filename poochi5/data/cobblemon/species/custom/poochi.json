@@ -1,0 +1,87 @@
+{
+"implemented": true,
+"name": "poochi",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.poochi.desc1",
+  "cobblemon.species.poochi.desc2"
+],
+"height": 9,
+"weight": 300,
+"forms": [
+  { "name": "normal" }
+],
+"shoulderMountable": true,
+"shoulderEffects": [ "slow_fall" ],
+
+
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "baseStats": {
+    "hp": 140,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 85,
+    "special_defence": 50,
+    "speed": 45
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 270,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 25,
+  "eggGroups": [
+    "water_1",
+    "monster"
+  ],
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 2,
+    "special_attack": 1
+  },
+  "moves": [
+    "egg:playrough",
+    "20:doubleedge",
+	"15:sing",
+	"30:doubleslap",
+	"5:disable",
+    "tm:rest",
+    "tutor:honeclaws"
+  ],
+  "abilities": [
+    "cutecharm",
+	"competitive",
+    "h:frisk"
+  ],
+  
+  
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}
